@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 165px;
+}
+
+header {
+  background-color: #014E56;
+}
+header .navigation {
+  padding-top: 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navigation .next-pg {
+  width: 153px;
+  height: 48px;
+  border: 2px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navigation .next-pg:hover {
+  background: #fff;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+header .navigation-content {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+header .navigation-content li a {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #fff;
+}
+header .navigation-content li a:hover {
+  color: coral;
+  transition: 0.2s;
+}
+header .hero {
+  padding: 120px 0;
+  text-align: center;
+}
+header .hero-content {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+header .hero-content h2 {
+  font-family: Livvic;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #fff;
+  text-align: left;
+}
+header .hero-content .hr-horizon {
+  width: 50px;
+  height: 4px;
+  background-color: #F67E7E;
+  margin-bottom: 83px;
+}
+header .hero-content p {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  text-align: left;
+  width: 730px;
+}
+
+main .directors {
+  text-align: center;
+  padding: 140px 0;
+  background: #004047;
+}
+main .directors h1 {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 64px;
+}
+main .directors .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 76px;
+  column-gap: 20px;
+}
+main .directors .grid-container .director-card,
+main .directors .grid-container .quote-card {
+  padding: 32px 24px 56px;
+  width: 350px;
+  height: 253px;
+  background: #012F34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .directors .grid-container .director-card .plus,
+main .directors .grid-container .quote-card .plus {
+  position: relative;
+  top: 25px;
+}
+main .directors .grid-container .director-card .minus,
+main .directors .grid-container .quote-card .minus {
+  position: relative;
+  top: 33px;
+}
+main .directors .grid-container .director-card img,
+main .directors .grid-container .quote-card img {
+  margin-bottom: 16px;
+}
+main .directors .grid-container .director-card h2,
+main .directors .grid-container .quote-card h2 {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+main .directors .grid-container .director-card i,
+main .directors .grid-container .quote-card i {
+  font-family: Livvic;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+main .directors .grid-container .director-card.quote-card,
+main .directors .grid-container .quote-card.quote-card {
+  text-align: center;
+}
+main .directors .grid-container .director-card.quote-card p,
+main .directors .grid-container .quote-card.quote-card p {
+  margin-bottom: 20px;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+main .directors .grid-container .director-card.quote-card .social-icons,
+main .directors .grid-container .quote-card.quote-card .social-icons {
+  display: flex;
+  gap: 10px;
+}
+main .directors .grid-container .director-card.quote-card .social-icons a,
+main .directors .grid-container .quote-card.quote-card .social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section-clients {
+  padding: 140px 0;
+  background: #012F34;
+}
+main .section-clients .clients h2 {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+main .section-clients .clients-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+main .section-registration {
+  background: #F67E7E;
+  padding: 76px 0;
+}
+main .section-registration .registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 260px;
+}
+main .section-registration .registration h2 {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #012F34;
+}
+main .section-registration .registration button {
+  width: 153px;
+  height: 48px;
+  border: 2px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #012F34;
+  border-radius: 25px;
+  border: 2px solid #012F34;
+  background-color: transparent;
+}
+main .section-registration .registration button:hover {
+  background: black;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+footer {
+  padding: 48px 0;
+  background: #002529;
+}
+footer .foot-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-content .content-one {
+  width: 730px;
+  display: flex;
+  align-items: stretch;
+  gap: 125px;
+}
+footer .foot-content .content-one li .inside {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-content .content-one li .inside a {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+footer .foot-content .content-one li .inside a:hover {
+  color: coral;
+  transition: 0.2s;
+}
+footer .foot-content .content-one li p {
+  color: #fff;
+  opacity: 0.6;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+footer .foot-content .content-two .img-li {
+  display: flex;
+  gap: 18px;
+  justify-content: end;
+}
+footer .foot-content .content-two li p {
+  margin-top: 51px;
+  color: #fff;
+  opacity: 0.6;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+  header .navigation {
+    padding-top: 64px;
+  }
+  header .hero {
+    text-align: center;
+  }
+  header .hero-content {
+    display: grid;
+    justify-content: center;
+  }
+  header .hero-content h2 {
+    font-size: 64px;
+    margin-bottom: 24px;
+    line-height: 64px;
+    text-align: center;
+  }
+  header .hero-content .hr-horizon {
+    display: none;
+  }
+  header .hero-content p {
+    line-height: 50px;
+    text-align: center;
+  }
+  main .directors {
+    text-align: center;
+    padding: 140px 0;
+  }
+  main .directors h1 {
+    font-size: 32px;
+    padding-bottom: 48px;
+  }
+  main .directors .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 76;
+    column-gap: 11px;
+  }
+  main .directors .grid-container .director-card,
+  main .directors .grid-container .quote-card {
+    padding: 32px 24px 56px;
+    width: 281px;
+    height: 253px;
+  }
+  main .section-clients {
+    padding: 100px 0;
+  }
+  main .section-clients .clients h2 {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+  main .section-clients .clients-content {
+    gap: 30px;
+  }
+  main .section-clients .clients-content img {
+    width: 110px;
+  }
+  main .section-registration {
+    padding: 84px 0;
+  }
+  main .section-registration .registration {
+    gap: 84px;
+  }
+  main .section-registration .registration h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  footer {
+    padding: 56px 0;
+  }
+  footer .foot-content {
+    display: grid;
+  }
+  footer .foot-content .content-one {
+    width: 700px;
+    gap: 395px;
+  }
+  footer .foot-content .content-one li .inside a {
+    margin-top: 53px;
+  }
+  footer .foot-content .content-one li p {
+    text-align: right;
+  }
+  footer .foot-content .content-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .foot-content .content-two .img-li {
+    margin-top: 51px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 165px;
+}
+
+header {
+  background: #014E56;
+}
+header .navigation {
+  padding-top: 73px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navigation .next-pg {
+  width: 153px;
+  height: 48px;
+  border: 2px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navigation .next-pg:hover {
+  background: #fff;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+header .navigation-content {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+header .navigation-content li a {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #fff;
+}
+header .navigation-content li a:hover {
+  color: coral;
+  transition: 0.2s;
+}
+
+main .section-registration {
+  padding: 0 0 120px;
+  background: #014E56;
+}
+main .section-registration .registration {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+main .section-registration .registration .contact-text h1 {
+  color: #fff;
+  margin-bottom: 16px;
+  font-family: Livvic;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  text-align: left;
+}
+main .section-registration .registration .contact-text h2 {
+  padding-bottom: 32px;
+  color: #F67E7E;
+  font-family: Livvic;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+main .section-registration .registration .contact-text .ct {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+main .section-registration .registration .contact-text .ct p {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+main .section-registration .registration .contact-form form .inp {
+  display: grid;
+}
+main .section-registration .registration .contact-form form .inp input {
+  margin-bottom: 24px;
+  padding: 0 81px 16px 14px;
+  width: 540px;
+  height: 42px;
+  background: transparent;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+main .section-registration .registration .contact-form form .inp input::placeholder {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.115384616px;
+  text-align: left;
+  opacity: 0.6;
+  color: #fff;
+}
+main .section-registration .registration .contact-form form .inp input:focus {
+  color: white;
+  border-bottom: 1px solid #79C8C7;
+}
+main .section-registration .registration .contact-form form #msg {
+  padding: 0 81px 58px 14px;
+  width: 540px;
+  font-size: 15px;
+  height: 84px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: white;
+  outline: none;
+}
+main .section-registration .registration .contact-form form #msg::placeholder {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.115384616px;
+  text-align: left;
+  opacity: 0.6;
+  color: #fff;
+}
+main .section-registration .registration .contact-form form #msg:focus {
+  color: white;
+  border-bottom: 1px solid #79C8C7;
+}
+main .section-registration .registration .contact-form form button {
+  margin-top: 24px;
+  width: 123px;
+  border-radius: 50px;
+  height: 48px;
+  background: #fff;
+  border: 2px solid #FFFFFF;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: #004047;
+}
+
+footer {
+  padding: 48px 0;
+  background: #002529;
+}
+footer .foot-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-content .content-one {
+  width: 730px;
+  display: flex;
+  align-items: stretch;
+  gap: 125px;
+}
+footer .foot-content .content-one li .inside {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-content .content-one li .inside a {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+footer .foot-content .content-one li .inside a:hover {
+  color: coral;
+  transition: 0.2s;
+}
+footer .foot-content .content-one li p {
+  color: #fff;
+  opacity: 0.6;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+footer .foot-content .content-two .img-li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: end;
+}
+footer .foot-content .content-two li p {
+  margin-top: 51px;
+  color: #fff;
+  opacity: 0.6;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+  header .navigation {
+    padding-top: 64px;
+  }
+  header .hero {
+    text-align: center;
+  }
+  header .hero-content {
+    display: grid;
+    justify-content: center;
+  }
+  header .hero-content h2 {
+    font-size: 64px;
+    margin-bottom: 24px;
+    line-height: 64px;
+    text-align: center;
+  }
+  header .hero-content .hr-horizon {
+    display: none;
+  }
+  header .hero-content p {
+    line-height: 50px;
+    text-align: center;
+  }
+  main .section-registration {
+    padding: 0 73px 120px;
+  }
+  main .section-registration .registration {
+    display: grid;
+  }
+  main .section-registration .registration .contact-text h1 {
+    text-align: center;
+  }
+  main .section-registration .registration .contact-text h2 {
+    text-align: center;
+  }
+  main .section-registration .registration .contact-text .ct {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+  main .section-registration .registration .contact-form {
+    margin-top: 64px;
+  }
+  main .section-registration .registration .contact-form form .inp {
+    display: grid;
+  }
+  main .section-registration .registration .contact-form form .inp input {
+    margin-bottom: 24px;
+    padding: 0 81px 16px 14px;
+    width: 540px;
+    height: 42px;
+    background: transparent;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid #fff;
+  }
+  main .section-registration .registration .contact-form form .inp input::placeholder {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115384616px;
+    text-align: left;
+    opacity: 0.6;
+    color: #fff;
+  }
+  main .section-registration .registration .contact-form form .inp input:focus {
+    color: white;
+    border-bottom: 1px solid #79C8C7;
+  }
+  main .section-registration .registration .contact-form form #msg {
+    padding: 0 81px 58px 14px;
+    width: 540px;
+    font-size: 15px;
+    height: 84px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    outline: none;
+  }
+  main .section-registration .registration .contact-form form #msg::placeholder {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115384616px;
+    text-align: left;
+    opacity: 0.6;
+    color: #fff;
+  }
+  main .section-registration .registration .contact-form form #msg:focus {
+    color: white;
+    border-bottom: 1px solid #79C8C7;
+  }
+  main .section-registration .registration .contact-form form button {
+    margin-top: 24px;
+    width: 123px;
+    border-radius: 50px;
+    height: 48px;
+    background: #fff;
+    border: 2px solid #FFFFFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #004047;
+  }
+  footer {
+    padding: 56px 0;
+  }
+  footer .foot-content {
+    display: grid;
+  }
+  footer .foot-content .content-one {
+    width: 700px;
+    gap: 395px;
+  }
+  footer .foot-content .content-one li .inside a {
+    margin-top: 53px;
+  }
+  footer .foot-content .content-one li p {
+    text-align: right;
+  }
+  footer .foot-content .content-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .foot-content .content-two .img-li {
+    margin-top: 51px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
